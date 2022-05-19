@@ -1,0 +1,16 @@
+div{
+    padding-top: 10%;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(36, 42, 40);
+    color: antiquewhite;
+    margin: auto;
+}
+img{
+    display:block;
+    margin:0px auto;
+}
+a{
+    color: azure;
+    margin-left: 47%;
+}
