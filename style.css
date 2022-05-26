@@ -5,6 +5,8 @@ div{
     background-color: rgb(36, 42, 40);
     color: antiquewhite;
     margin: auto;
+    text-align: center;
+    list-style-position: inside;
 }
 img{
     display:block;
@@ -12,5 +14,5 @@ img{
 }
 a{
     color: azure;
-    margin-left: 47%;
+
 }
