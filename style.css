@@ -1,11 +1,12 @@
 div{
     padding-top: 10%;
-    width: 1000px;
-    height: 500px;
+    width: 1000vh;
+    height: 500vh;
     background-color: rgb(170, 185, 180);
     color: antiquewhite;
     margin: auto;
     text-align: center;
+    font-family: sans-serif;
     list-style-position: inside;
 }
 img{
