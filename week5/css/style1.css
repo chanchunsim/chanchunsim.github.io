@@ -1,5 +1,5 @@
 #container {
-  background-image: url(../img/rain.jpg);
+  background-image: url(../img/blacksky.jpeg);
     max-width: 1024px; /*how big the box , max will not change*/
     margin: auto; /*only box, display center*/
   }
@@ -50,7 +50,6 @@ p{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    background-color: #717171;
   }
   
   /* Hide the images by default */
