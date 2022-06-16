@@ -1,0 +1,83 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.container{
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-image: url(../img/onepiece2.jpg);
+    background-size: cover;
+}
+.rightbar{
+    display: flex;
+}
+.header a{
+    color: red;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    text-decoration: underline;
+}
+.header{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.box1{
+    position: absolute;
+    top: 200px;
+    left: 630px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.travel{
+    display: flex;
+    position: absolute;
+    right: 120px;
+    width: 200px;
+}
+.world{
+    display: flex;
+    position: absolute;
+    left: 170px;
+    width: 200px;
+}
+.box3{
+    position: absolute;
+    right: 70px;
+    bottom: 40px;
+    padding: 3vh 3vw;
+    border: 2px white dotted;
+    border-radius: 10%;
+}
+.own{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    left: 70px;
+    bottom: 40px;
+    color: aliceblue;
+    font-size: 120%;
+}
+h3{
+    color: white;
+}
+.box3 h3{
+    color: red;
+}
+.box3 p{
+    font-size: 120%;
+    color: aliceblue;
+}
+h1{
+    font-size: 300%;
+    color: aliceblue;
+}
