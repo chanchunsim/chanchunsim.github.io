@@ -1,0 +1,67 @@
+.item1{
+    grid-area: blogmenu;
+}
+.item2{
+    grid-area: logo;
+    height: 100px;
+    margin-top: 25px;
+}
+.item3{
+    grid-area: phone;
+    height: 16px;
+    margin-top: 25px;
+}
+.item4{
+    grid-area: menu;
+    height: 30px;
+}
+.item5{
+    grid-area: slideshow;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item6{
+    grid-area: content;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item7{
+    grid-area: sidebar;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item8{
+    grid-area: footer;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container{
+    max-width: 1024px; /*how big the box , max will not change*/
+    margin: auto; /*only box, display center*/
+    display: grid;
+    grid-template-areas: 
+    'blogmenu blogmenu blogmenu blogmenu'
+    'logo logo space phone'
+    'logo logo menu menu'
+    'slideshow slideshow slideshow sidebar'
+    'content content content sidebar'
+    'footer footer footer footer';
+    gap: 10px;
+    background-color: beige;
+    padding: 10px;
+    grid-template-rows: 60px 80px 80px 200px 250px 140px;
+    text-align: center;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  
