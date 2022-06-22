@@ -501,6 +501,9 @@ html {
   }
 
   .header {
+    display:flex;
+  }
+  .logo{
     display: none;
   }
 
