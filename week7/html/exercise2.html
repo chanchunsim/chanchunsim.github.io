@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/totoro.jpg" />
+    <script src="https://kit.fontawesome.com/2cba371596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick=" openNav()">
+            <i id="icon" class="fa-brands fa-aviato"></i>
+        </a>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className = "topnav" + " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            var icon = document.getElementById("icon");
+            if (icon.className === "fa-brands fa-aviato") {
+                icon.className = "fa-solid fa-apple-whole";
+            } else {
+                icon.className = "fa-brands fa-aviato";
+            }
+        }
+        function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+  document.getElementById("myTopnav").display=none;
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+  document.getElementsByClassName("topnav").style.display = block;
+}
+    </script>
+</body>
+
+</html>
