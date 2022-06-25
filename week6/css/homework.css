@@ -3,3 +3,628 @@ html {
   height: 100%;
   margin: 0;
 }
+
+.page1 {
+  background-image: url(../homework/HomeworkImages/Bg\ Shape@2x.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  position: fixed right top;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h2 {
+  color: rgb(71, 61, 61);
+  font-size: 300%;
+  margin-left: 17px;
+  margin-top: 50px;
+}
+
+.logo img {
+  min-width: 150px;
+}
+
+.rightbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 50%
+}
+
+.rightbar a {
+  font-size: 120%;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.rightbar a:hover {
+  text-decoration: underline;
+  background-color: blanchedalmond;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.leftbar {
+  position: fixed;
+  top: 40%;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.leftbar img{
+  width: 30px;
+}
+
+.line {
+  width: 5px;
+  border-right: 3px rgb(48, 55, 185) solid;
+}
+
+.text {
+  padding-top: 5%;
+  padding-left:8% ;
+  width: 50%;
+}
+
+.text p,
+.p2p2 {
+  color: grey;
+}
+.button{
+  margin-top: 30px;
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
+  background-image:linear-gradient(to right, rgb(15, 15, 77),rgb(37, 119, 145));
+  border: black solid 2px;
+  border-style: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a{
+  color: white;
+  text-decoration: none; 
+}
+.button1{
+  margin-top: 30px;
+  border-radius: 40px;
+  width: 100px;
+  height: 40px;
+  background-image:linear-gradient(to right, rgb(15, 15, 77),rgb(37, 119, 145));
+  border: black solid 2px;
+  border-style: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button1 a{
+  color: white;
+  text-decoration: none; 
+}
+.button2{
+  margin-top: 30px;
+  border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  background-image:white;
+  border: black solid 2px;
+  border-style: solid black 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button2 a{
+  color: black;
+  text-decoration: none; 
+}
+.button2:hover{
+  
+  background-image:linear-gradient(to right, rgb(15, 15, 77),rgb(37, 119, 145));
+  background-size: cover;
+}
+.button2 a:hover{
+  color: white;
+}
+.text h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 350%;
+}
+
+.text h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 500%;
+}
+
+.p1button button {
+  background-image: url(../homework/HomeworkImages/Rectangle\ 8@2x.png);
+  width: 220px;
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+
+.image {
+  width: 50%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom button {
+  background-image: url(../homework/HomeworkImages/mouse@2x.png);
+  border-radius: 100%;
+  width: 100px;
+  border-style: none;
+  box-shadow: 0px 2px 2px 1px #575454;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+.page2{
+  display: flex;
+  justify-content: space-between;
+}
+.image2 {
+  padding: 5%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image2 img{
+  max-width: 100%;
+  min-width: 40%;
+}
+.p2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 120%;
+  background-image: url(../homework/HomeworkImages/background@2x.png);
+}
+
+.p2text {
+  
+  width: 50%;
+}
+
+.p2text h1 {
+  font-size: 300%;
+  color: rgb(70, 67, 67);
+}
+
+.p2text h5 {
+  font-size: 130%;
+  font-weight: 500;
+  color: rgba(45, 169, 226, 0.7);
+}
+
+.p2button button {
+  margin-top: 30px;
+  background-image: url(../homework/HomeworkImages/Rectangle\ 8@2x.png);
+  width: 220px;
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+
+.page3 {
+  background-image: url(../homework/HomeworkImages/background@2x.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: bottom;
+}
+
+.p3heading {
+  padding-left: 15%;
+}
+
+.p3heading h2 {
+  color: rgb(73, 73, 197);
+  font-size: 200%;
+  font-weight: 500;
+}
+
+.p3heading h1 {
+  font-size: 300%;
+  color: #534b4b;
+}
+
+.infotable {
+  gap: 5%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.right{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.info {
+  position: relative;
+  height: 350px;
+  padding: 30px;
+  background-color: rgb(249, 255, 255);
+  border-radius: 50px;
+  border-style: none;
+  box-shadow: 1px 3px #888888;
+  margin-bottom: 40px;
+}
+.info img{
+  width: 100px;
+}
+.info p {
+  color: #554c4c;
+}
+
+.info h4 {
+  margin-bottom: 40px;
+  color: rgb(63, 47, 47);
+}
+
+.page4 {
+  background-color: rgb(235, 214, 235);
+}
+
+.p4heading {
+  width: 100%;
+  text-align: center;
+}
+.p4heading p{
+  padding-top: 50px;
+}
+.page4info {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.p4heading p {
+  color: rgb(42, 44, 138);
+  font-size: 150%;
+  font-weight: 500;
+}
+
+.p4heading h1 {
+  color: rgb(71, 62, 62);
+  font-size: 300%;
+  padding-bottom: 50px;
+}
+
+.pg4if {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 30px;
+  margin-top: 12px;
+  margin-bottom: 7%;
+  background-color: rgb(249, 255, 255);
+  border-radius: 10%;
+  border-style: none;
+  box-shadow: 1px 3px #888888;
+}
+
+.pg4if h3 {
+  width: 100%;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.pg4if h2 {
+  width: 100%;
+  color: blue;
+  font-size: 200%;
+}
+
+.pg4if p {
+  width: 100%;
+  padding-bottom: 40px;
+  color: #bbb;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 40px 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  
+}
+.dotclass{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.page5 {
+  background-color: white;
+  background-image: url(../homework/HomeworkImages/footerbackground.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.pg5heading {
+  padding-top: 6%;
+  text-align: center;
+  width: 100%;
+}
+
+.pg5heading p {
+  color: rgb(152, 152, 212);
+  font-size: 130%;
+}
+
+.pg5heading h2 {
+  color: black;
+  font-size: 200%;
+}
+
+.searchbar input[type=text] {
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  border: grey solid 1px;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
+
+
+.search {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 12%;
+  margin: 10%;
+  padding: 100px;
+}
+.flogo h2 {
+  text-align: center;
+  color: white;
+  font-size: 250%;
+}
+
+.flogo p {
+  color: white;
+  font-size: 200%;
+}
+
+.logopic img {
+  padding-right: 20px;
+}
+
+.flogo {
+  
+}
+
+.links a {
+  color: white;
+  display: flex;
+  margin-top: 20px;
+  text-decoration: none;
+  flex-direction: row;
+}
+
+.links {
+  
+}
+
+.hours {
+  
+  color: white;
+}
+
+.page5 h3 {
+  color: white;
+}
+
+.contact1 img,
+.contact2 img,
+.contact3 img {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.contact1,
+.contact2,
+.contact3 {
+  display: flex;
+  width: 150%;
+  font-size: 90%;
+  color: white;
+}
+
+.contact {
+  
+}
+
+@media screen and (max-width: 800px) {
+
+  body,
+  html {
+    width: 800px;
+    margin: 0;
+  }
+
+  .text h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 200%;
+  }
+
+  .text p {
+    color: white;
+  }
+
+  .text h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 350%;
+  }
+
+  .header {
+    display:flex;
+  }
+
+  .container {
+    background-color: rgb(52, 52, 85);
+  }
+
+
+  .bottom button {
+    display: none;
+  }
+
+
+
+
+
+  .p4heading h1 {
+    color: rgb(71, 62, 62);
+    font-size: 150%;
+  }
+
+  .p3heading h2 {
+    color: rgb(73, 73, 197);
+    font-size: 100%;
+    font-weight: 500;
+  }
+
+  .p3heading h1 {
+    font-size: 150%;
+  }
+
+  .infotable {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+
+  .info {
+    padding: 40px;
+    background-color: rgb(249, 255, 255);
+    border-radius: 10%;
+    border-style: none;
+    box-shadow: 1px 3px #888888;
+  }
+
+  .page4info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+.pg4if{
+  width: 70%;
+
+}
+
+  .pg4if h {
+    color: blue;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 200%;
+  }
+
+  .pg4if p {
+    color: #bbb;
+    padding-bottom: 0px;
+  }
+  .page2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+.image2{
+  width: 100%;
+
+}
+.p2{
+  width: 100%;
+}
+  .dot {
+    display: none;
+
+  }
+
+.footer{
+  flex-direction: column;
+}
+
+
+  .links a {
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+    flex-direction: row;
+  }
+
+  .page5 h3 {
+    color: white;
+  }
+
+  .contact1 img,
+  .contact2 img,
+  .contact3 img {
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+
+  .contact1,
+  .contact2,
+  .contact3 {
+    display: flex;
+    width: 150%;
+    font-size: 90%;
+    color: white;
+  }
+}
