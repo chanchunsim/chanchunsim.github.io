@@ -1,0 +1,60 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: green;
+  }
+  form{
+    background-color: rgb(188, 227, 174);
+  }
+  #fname, #lname, #region, #postal, #country, #city{
+    width: 49%;
+  }
+  fieldset{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  ::placeholder{
+    color: green;
+  }
+  .between{
+    display: flex;
+    
+    gap: 30px;
+  }
+  legend{
+    font-weight: 500;
+    font-size: 200%;
+  }
+  input[type=submit] {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 14px 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .form1 {
+    color: green;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
