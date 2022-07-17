@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 1 Basic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="icon" type="image/x-icon" href="../../assets/totoro.jpg">
+    <script src="https://kit.fontawesome.com/2cba371596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>  
+    <div class="container">
+        <div class="header">
+            <div class="headerimg">
+                <a href="https://chanchunsim.github.io/assignment/html/home.html"><img src="../img/league-of-legends-icon-transparent-0.jpg" alt="icon" width="60px"> </a>
+                
+            </div>
+            <div class="middle">
+                <div class="headerlink">
+                    <div class="topnav headerlink" id="myTopnav">
+                        <a href="https://chanchunsim.github.io/assignment/html/champion.html">CHAMPION</a>
+                        <a href="https://chanchunsim.github.io/assignment/html/basic.html">BASIC</a>
+                        <a href="https://chanchunsim.github.io/assignment/html/about.html">ABOUT ME</a>
+                        <a href="https://chanchunsim.github.io/assignment/html/contact.html">CONTACT ME</a>
+                        <a href="javascript:void(0);" class="icon" onclick=" openNav()">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                          <a href="https://chanchunsim.github.io/assignment/html/champion.html">CHAMPION</a>
+                          <a href="https://chanchunsim.github.io/assignment/html/basic.html">BASIC</a>
+                          <a href="https://chanchunsim.github.io/assignment/html/about.html">ABOUT ME</a>
+                          <a href="https://chanchunsim.github.io/assignment/html/contact.html">CONTACT ME</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c1h1">
+        <div class="middle h1style1 p1h1">
+            <h1>LEARN THE BASICS</h1>
+        </div>
+        <p class="middle parawidth">There's a lot to learn about League, so we'll start with the essentials. Explore the guide below to get the rundown on the most popular game mode.<br><br></p>
+        <div class="button middle pd-2">
+            <a href="https://lol.garena.com/">Start Now</a>
+        </div>
+    </div>
+    <div class="white container2">
+        <div class="w-60">
+            <h1 class="middle h1style1">
+                WHAT IS LEAGUE OF LEGENDS?
+            </h1>
+        </div>
+        <div class="w-60">
+            <p class="middle">
+                League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
+            </p>
+        </div> 
+    </div>
+    <div class="white container3">
+        <div class="w-60 pdt-2">
+            <h1 class="middle h1style1">
+                DESTROY THE BASE
+            </h1>
+        </div>
+        <div class="w-60">
+            <p class="middle">
+                The Nexus is the heart of both teams'bases. Destroy the enemy's Nexus first to win the game.
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="footertop">
+            <div class="w-30">
+                <a href="https://chanchunsim.github.io/assignment/html/home.html"><img src="../img/league-of-legends-icon-transparent-0.jpg" alt="icon" width="60px"> </a>
+            </div>
+            <div class="w-30 footerlink">
+                <h4>
+                    MENU
+                </h4>
+                <a href="https://chanchunsim.github.io/assignment/html/champion.html">Champion</a>
+                <a href="https://chanchunsim.github.io/assignment/html/basic.html">Game Mode</a>
+                <a href="https://chanchunsim.github.io/assignment/html/about.html">About Me</a>
+                <a href="https://chanchunsim.github.io/assignment/html/contact.html">Contact Me</a>
+            </div>
+            <div class="w-30 footericon">
+                <a href="https://www.facebook.com/wschunsim"><img src="../img/5279111_network_fb_social media_facebook_facebook logo_icon.png" alt="facebook"
+                    width="48px"></a>
+                <a href="https://www.instagram.com/chunsim358/"><img src="../img/5279112_camera_instagram_social media_instagram logo_icon.png" width="48px"
+                    alt="instagram"></a>
+                <a href="https://github.com/chanchunsim"><img src="../img/github-163-761603.webp" width="48px" alt="github"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                Copyright © 2022 Chan Chun Sim
+            </p>
+        </div>
+    </div>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className = "topnav" + " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            var icon = document.getElementById("icon");
+            if (icon.className === "fa-brands fa-aviato") {
+                icon.className = "fa-solid fa-apple-whole";
+            } else {
+                icon.className = "fa-brands fa-aviato";
+            }
+        }
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            document.getElementById("myTopnav").display = none;
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementsByClassName("topnav").style.display = block;
+        }
+        
+    </script>
+</body>
+
+</html>

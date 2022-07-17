@@ -15,6 +15,9 @@ html,body{
     max-width: 100%;
     height: auto;
 }
+.pd-2{
+    padding: 20px;
+}
 .header{
     width: 100%;
     background-color: black;
@@ -208,7 +211,7 @@ span{
     background-image: url(../img/pnz-frame-1.jpg);
     background-size: cover;
     padding-bottom: 5%;
-    height: 100%;
+    height: auto;
 }
 .container4{
     background-image: url(../img/faction-demacia-frame-02.jpg);
@@ -255,9 +258,9 @@ span{
 }
 .footer{
     border-top: black solid 2px;
-    display: flex;
-    justify-content: space-between;
     padding: 40px 100px 40px 100px;
+    display: flex;
+    justify-content: center;
 }
 .footer p{
     font-size: 100%;
@@ -345,6 +348,13 @@ span{
       top: 0;
       
     }
+    .block{
+        width: 80%;
+    }
+    .footericon{
+        display: flex;
+        flex-direction: column;
+    }
     .container5{
         flex-wrap: wrap;
         justify-content: center;
@@ -363,6 +373,18 @@ span{
         text-shadow: 2px 2px black;
         font-style: italic;
         font-size: 200%;
+    }
+    .c3main{
+        width: 60%;
+    }
+    .container{
+        height: auto;
+    }
+    .container3{
+        height: 600px;
+    }
+    .container4{
+        height: 600px;
     }
     .c2main{
         display: flex;
