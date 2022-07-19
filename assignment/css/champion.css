@@ -1,9 +1,11 @@
 html,body{
     height: 100%;
     margin: 0;
+    font-family: 'Aclonica';
 }
 .container{
-    width: 100%;
+    max-width: 1980px;
+    margin: auto;
 }
 .skill1{
   display: flex;
