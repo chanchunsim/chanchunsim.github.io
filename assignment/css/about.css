@@ -3,6 +3,10 @@ html,body{
     font-family: 'Aclonica';
     margin: 0;
 }
+.control{
+  max-width: 1920px;
+  margin: auto;
+}
 .header{
     width: 100%;
     background-color: black;
