@@ -51,6 +51,10 @@ body, html {
 
     color: white;
   }
+  .accordion-button{
+    background-color: #519259!important;
+    color: white!important;
+  }
 #pin{
     bottom: 5%;
     left: 5%;
