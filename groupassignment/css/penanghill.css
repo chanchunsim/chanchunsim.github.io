@@ -2,8 +2,40 @@ body, html {
     height: 100%;
     background-color: #D2DDCD;
   }
-  p{
-    font-size: 2vw;
+  image{
+    width: 100%;
+  }
+  .wd-50{
+    width: 45%;
+  }
+  div p{
+    font-size: 200%;
+  }
+  @media only screen and (max-width: 850px) {
+    div p{
+      font-size: 4vw;
+    }
+    .wd-50{
+      width: 100%;
+    }
+    body, html {
+      height: 60%;
+      background-color: #D2DDCD;
+    }
+    .bg {
+      /* The image used */
+      background-image: url(../images/penanghill/penang-5230946_960_720.jpg);
+      
+      /* Full height */
+      height: 50%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      color: white;
+    }
   }
 .bg {
     /* The image used */

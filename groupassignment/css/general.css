@@ -7,7 +7,19 @@
     --bg-back-top-hover: #ef6c58;
     --bg-line: #F3D1BF;
 }
+.container-1920{
+    max-width: 1920px;
+    margin: auto;
+}
+.dropdown-item.item-fw-bold{
+    font-weight: 500 !important;
+}
 
+.dropdown-item.active{
+    font-weight: 700 !important;
+    background-color: inherit !important;
+    color: black !important;
+}
 *{
     font-family: 'Edu SA Beginner', cursive;
     font-weight: 500;
@@ -130,17 +142,20 @@ footer a:hover img{
     background-color: var(--bg-line);
     bottom: 50px;
 }
-
+.container-1920{
+    max-width: 1920px;
+    margin: auto;
+}
 #west_malaysia {
-    left: 32vw;
-    bottom: 80px;
-    width: 15vw;
+    left: 30%;
+    bottom: 85px;
+    width: 15%;
 }
 
 #east_malaysia {
-    left: 51vw;
-    bottom: 80px;
-    width: 20vw;
+    right: 24%;
+    bottom: 85px;
+    width: 20%;
 }
 
 @media screen and (max-width: 992px) {

@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon-->
   <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="css/general.css">
   <!-- add your css file here for example -->
   <link rel="stylesheet" href="css/penanghill.css">
@@ -27,7 +28,7 @@
   <script src="https://kit.fontawesome.com/13427233db.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="container-1920">
   <nav class="autohide navbar sticky-top navbar-expand-md bg-light py-0">
     <div class="container-fluid bg-top-nav-green px-0">
       <a class="navbar-brand ms-3 my-2" href="#"><img src="images/logo_Light.png" alt="logo_white 1.png"
@@ -49,9 +50,9 @@
               MOUNTAIN
             </a>
             <ul class="dropdown-menu bg-dropdown-yellow-green">
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Genting Highland</a></li>
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Cameron Highland</a></li>
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Penang Hill</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Genting Highland</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Cameron Highland</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5 active" href="#">Penang Hill</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -60,9 +61,9 @@
               BEACH
             </a>
             <ul class="dropdown-menu bg-dropdown-yellow-green">
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Perhentian Island</a></li>
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Pulau Rawa</a></li>
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Pantai Cenang</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Perhentian Island</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Pulau Rawa</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Pantai Cenang</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -71,9 +72,9 @@
               CULTURE
             </a>
             <ul class="dropdown-menu bg-dropdown-yellow-green bg-dropdown-yellow-width">
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Thean Hou Temple</a></li>
-              <li><a class="dropdown-item fw-bold fs-5" href="#">Batu Caves</a></li>
-              <li><a class="dropdown-item fw-bold fs-5 text-wrap" href="#">Sultan Salahuddin Abdul Aziz Mosque</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Thean Hou Temple</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5" href="#">Batu Caves</a></li>
+              <li><a class="dropdown-item item-fw-bold fs-5 text-wrap" href="#">Sultan Salahuddin Abdul Aziz Mosque</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -92,13 +93,15 @@
     <div>
       <h1>Penang Hill</h1>
     </div>
-    <div id="location-pin" class="d-flex position-absolute">
-      <div class="white">
-        <a href="https://www.google.com/maps/place/%E5%8D%87%E6%97%97%E5%B1%B1/@5.4084612,100.2773317,15z/data=!4m5!3m4!1s0x304ac28738d4ea43:0xf862c72e1eb12bb9!8m2!3d5.4084613!4d100.2773317"
-          class="text-decoration-none"><img src="images/Streamline-20-512.png" width="25px">&nbsp;&nbsp;&nbsp;Penang
-          Hill, Pulau Penang</a>
-      </div>
-
+    <div id="pin" class="position-absolute">
+      <a
+        class="text-decoration-none text-light d-flex align-items-center"
+        href="https://www.google.com/maps/place/%E5%8D%87%E6%97%97%E5%B1%B1/@5.4084612,100.2773317,15z/data=!4m5!3m4!1s0x304ac28738d4ea43:0xf862c72e1eb12bb9!8m2!3d5.4084613!4d100.2773317"
+      >
+        <i class="fa-solid fa-location-dot d-flex align-items-center"></i>
+        <p>&nbsp;&nbsp;&nbsp;Penang
+          Hill, Pulau Penang</p>
+      </a>
     </div>
   </div>
   <!-- about -->
@@ -128,8 +131,8 @@
     </div>
 
     <!-- activity 1 -->
-    <div class="d-flex justify-content-between">
-      <div class="ms-5 w-50">
+    <div class="d-flex justify-content-between flex-wrap">
+      <div class="ms-5 wd-50">
         <div>
           <p class="ms-1">
             Hop off the flag mountain train
@@ -140,7 +143,7 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-center align-items-center px-5 w-50">
+      <div class="d-flex justify-content-center align-items-center px-5 wd-50">
         <p>
           The most convenient way to get to Penang Hill is to take the train to the top!<br>Located at the foot of Penang
           Hill, this Swiss-designed train runs through the world's oldest train system, taking you through lush green
@@ -150,8 +153,8 @@
     </div>
 
     <!-- activity 2 -->
-    <div class="d-flex justify-content-between">
-      <div class="ms-5 w-50">
+    <div class="d-flex justify-content-between flex-wrap">
+      <div class="ms-5 wd-50">
         <div>
           <p class="ms-1">
             Lock love
@@ -162,7 +165,7 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-center align-items-center px-5 w-50">
+      <div class="d-flex justify-content-center align-items-center px-5 wd-50">
         <p>
           This love lock area is very popular (especially couples), but single people or with a group of friends also like to come here, you can take a bunch of IG photos!
         </p>
@@ -170,8 +173,8 @@
     </div>
 
     <!-- activity 3 -->
-    <div class="d-flex justify-content-between">
-      <div class="ms-5 w-50">
+    <div class="d-flex justify-content-between flex-wrap">
+      <div class="ms-5 wd-50">
         <div>
           <p class="ms-1">
             Visit some historic buildings
@@ -182,7 +185,7 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-center align-items-center px-5 w-50">
+      <div class="d-flex justify-content-center align-items-center px-5 wd-50">
         <p>
           If you are a history buff, you can embark on this historical trail journey to see some of the famous buildings on Penang Hill.
         </p>
@@ -205,13 +208,29 @@
   <p>Kopi Hutan Cafe</p>
 </div>
 <!-- food 1 -->
-<div class="d-flex justify-content-between">
-  <div class="d-flex justify-content-center align-items-center px-5 w-50">
+<div class="d-flex justify-content-between flex-wrap">
+  <div class="d-flex justify-content-center align-items-center px-5 wd-50 flex-wrap mb-3">
     <p>
       Kopi Hutan Cafe is a great place to grab a cup of coffee and a delicious cake while surrounded by trees and fresh air for the perfect atmosphere!
     </p>
+    <div class="accordion w-100" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+            Details
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body d-flex justify-content-between">
+            <strong>Opening Hours:
+              <br>9am–5pm</strong>
+              <a href="https://www.facebook.com/coffeeinforest" target="_blank"><img src="images/5279111_network_fb_social media_facebook_facebook logo_icon.png" width="60px" alt="fb"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="carouselExampleCaptions" class="carousel slide w-50" data-bs-ride="false">
+  <div id="carouselExampleCaptions" class="carousel slide wd-50" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -256,17 +275,33 @@
 </div>
 
 <!-- food 2 -->
-<div class="d-flex justify-content-center align-items-center">
+<div class="d-flex justify-content-center align-items-center flex-wrap">
   <p>Astaka/ Cliff Cafe</p>
 </div>
-<div class="d-flex justify-content-between">
+<div class="d-flex justify-content-between flex-wrap">
   
-  <div class="d-flex justify-content-center align-items-center px-5 w-50">
+  <div class="d-flex justify-content-center align-items-center px-5 wd-50 flex-wrap mb-3">
     <p>
       Cliff Cafe or Astaka Bukit Bendera is a three-storey food and beverage centre in Penang Hill. The view is particularly beautiful at night, when the city lights up.Cliff Cafe became operational January 2012.
     </p>
+    <div class="accordion w-100" id="accordionPanelsStayOpenExample2">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne2">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne2" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+            Details
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne2" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne2">
+          <div class="accordion-body d-flex justify-content-between">
+            <strong>
+              Opening Hours:<br>
+8:00am - 8:00pm (Daily)</strong>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="carouselExampleCaptions2" class="carousel slide w-50" data-bs-ride="false">
+  <div id="carouselExampleCaptions2" class="carousel slide wd-50" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -311,17 +346,39 @@
 </div>
 
 <!-- food 3 -->
-<div class="d-flex justify-content-center align-items-center">
+<div class="d-flex justify-content-center align-items-center flex-wrap">
   <p>The Habitat Shop & Cafe</p>
 </div>
-<div class="d-flex justify-content-between">
+<div class="d-flex justify-content-between flex-wrap">
   
-  <div class="d-flex justify-content-center align-items-center px-5 w-50">
+  <div class="d-flex justify-content-center align-items-center px-5 wd-50 flex-wrap mb-3">
     <p>
       Located within The Habitat Penang Hill, this café is an ideal spot to quench thirst and satisfy hunger after exploring the century-old tropical rainforest.  
     </p>
+    <div class="accordion w-100" id="accordionPanelsStayOpenExample3">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne3">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne3" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne3">
+            Details
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne3" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne3">
+          <div class="accordion-body d-flex justify-content-between">
+            <strong>
+              Opening Hours:<br>
+              9am–5pm</strong>
+              <a href="https://www.facebook.com/HabitatCafeAberfeldy/"><img src="images/5279111_network_fb_social media_facebook_facebook logo_icon.png" target="_blank" width="60px" alt="fb"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="carouselExampleCaptions3" class="carousel slide w-50" data-bs-ride="false">
+
+  
+
+
+   <!-- slideshow -->
+  <div id="carouselExampleCaptions3" class="carousel slide wd-50" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -375,14 +432,14 @@
   </div>
 </div>
 <div class="d-flex gap-5 flex-wrap justify-content-center">
-  <img src="images/penanghill/file.jpg" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/IMG-20210320-WA0030.jpg" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/1280px-View_from_top_of_Penang_Hill.jpg" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/penang-hill-1-1-1.png" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/Penang-Hill-project-fb.webp" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/jpg.jpg" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/Penang_Hill_Funicular_Train2.jpg" class="img-fluid zoom" width="450px" alt="pic">
-  <img src="images/penanghill/SGE_5644Penang.JPG" class="img-fluid zoom" width="450px" alt="pic">
+  <img src="images/penanghill/file.jpg" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/IMG-20210320-WA0030.jpg" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/1280px-View_from_top_of_Penang_Hill.jpg" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/penang-hill-1-1-1.png" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/Penang-Hill-project-fb.webp" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/jpg.jpg" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/Penang_Hill_Funicular_Train2.jpg" class="img-fluid zoom" width="400px" alt="pic">
+  <img src="images/penanghill/SGE_5644Penang.JPG" class="img-fluid zoom" width="400px" alt="pic">
 </div>
 <br><br><br><br><br>
 
@@ -402,7 +459,7 @@
               <li class="mb-2">ABOUT</li>
             </a>
             <a href="#">
-              <li class="mb-2">MOUTAIN</li>
+              <li class="mb-2">MOUNTAIN</li>
             </a>
             <a href="#">
               <li class="mb-2">BEACH</li>
