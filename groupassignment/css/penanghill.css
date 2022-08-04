@@ -11,6 +11,9 @@ body, html {
   div p{
     font-size: 200%;
   }
+  .pol1{
+    background-image: url(../images/penanghill/Polygon16.png);
+  }
   @media only screen and (max-width: 850px) {
     div p{
       font-size: 4vw;
