@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 1 HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="icon" type="image/x-icon" href="img/totoro.jpg">
+    <script src="https://kit.fontawesome.com/2cba371596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>  
+    <div class="control">
+    <div class="container">
+        <div class="header">
+            <div class="headerimg">
+                <a href="https://chanchunsim.github.io/assignment/index.html"><img src="img/league-of-legends-icon-transparent-0.jpg" alt="icon" width="60px"> </a>
+                
+            </div>
+            <div class="middle">
+                <div class="headerlink">
+                    <div class="topnav headerlink" id="myTopnav">
+                        <a href="https://chanchunsim.github.io/assignment/html/champion.html">CHAMPION</a>
+                        <a href="https://chanchunsim.github.io/assignment/html/basic.html">BASIC</a>
+                        <a href="https://chanchunsim.github.io/assignment/html/about.html">ABOUT ME</a>
+                        <a href="https://chanchunsim.github.io/assignment/html/contact.html">CONTACT ME</a>
+                        <a href="javascript:void(0);" class="icon" onclick=" openNav()">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                          <a href="https://chanchunsim.github.io/assignment/html/champion.html">CHAMPION</a>
+                          <a href="https://chanchunsim.github.io/assignment/html/basic.html">BASIC</a>
+                          <a href="https://chanchunsim.github.io/assignment/html/about.html">ABOUT ME</a>
+                          <a href="https://chanchunsim.github.io/assignment/html/contact.html">CONTACT ME</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="home">
+            <div class="homeimg middle responsive">
+                <img src="img/loltext.png" alt="lol" width="400px">
+            </div>
+            <div class="button middle pd-2 zoom">
+                <a href="https://lol.garena.com/">Play For Free</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container2">
+        <div class="middle h1style1 p1h1">
+            <h1>CHOOSE YOUR CHAMPION</h1>
+        </div>
+        <p class="middle parawidth">
+            Whether you like to dive straight into the fray, support your teammates, or something in between, there's a
+            spot for you on the Rift.<br><br>
+        </p>
+        <div class="button2 middle zoom">
+            <a href="https://chanchunsim.github.io/assignment/html/champion.html">Discover More Champion</a>
+        </div>
+        <div class="c2main middle">
+            <div class="block">
+                <div class="blockicon">
+                    <input type="image" src="img/Fighter_icon.webp" class="input1" width="12%"
+                        onclick="myFunction()">
+                    <input type="image" src="img/Slayer_icon.webp" class="input1" width="12%"
+                        onclick="myFunction2()">
+                    <input type="image" src="img/Mage_icon.webp" class="input1" width="12%" onclick="myFunction3()">
+                    <input type="image" src="img/Marksman_icon.webp" class="input1" width="12%"
+                        onclick="myFunction4()">
+                    <input type="image" src="img/Support_icon.webp" class="input1" width="12%"
+                        onclick="myFunction5()">
+                </div>
+                <div class="blocktext middle">
+                    <span id="span1">Fighters (also known as Bruisers) are a diverse group of short-ranged combatants who excel at both dealing and surviving damage.</span>
+                </div>
+            </div>
+            <div class="p1i1">
+                <img src="img/adc.png" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="container3 middle footericon">
+        <div class="c3main">
+            <div class="h1style2">
+                <h1>Play With Style</h1>
+            </div>
+            <div class="c3p1">
+                <p>
+                    Make it personal by changing up the look of your favorite champions with skins.
+                </p>
+            </div>
+        </div>
+        <div class="c3i1">
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="img/assassin-four-d763afcd430fe6194d5640d6bf2a5941.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/assassin-two-3a0fb5383eca19a4bc9b3c53310380bf.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/assassin-three-3b9f65b6c20d5779628f7a8b04b43819.png" style="width:100%">
+                </div>
+            </div>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="container4 middle footericon">
+        <div class="c4i1">
+            <input type="image" src="img/summonersrift.jpg" class="c4slide zoom" width="25%" onclick="content()">
+            <input type="image" src="img/howlingabyss.jpg" class="c4slide zoom" width="25%" onclick="content2()">
+            <input type="image" src="img/teamfighttactics.jpg" class="c4slide zoom" width="25%" onclick="content3()">
+        </div>
+        <div class="c4main">
+            <div class="h1style2">
+                <h1>GAME MODE</h1>
+            </div>
+            <div class="c3p1">
+                <p id="c4content">
+                    THE MOST POPULAR GAME MODE<br>
+                    Clear your lane, dive into epic 5v5 team fights, and destroy the enemy nexus before they destroy
+                    yours.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="c5img">
+            <img src="img/player-guide-map-1440-32575baa2f8d2b2bfd5cfd07e11d1361.png" alt="map" width="100%">
+        </div>
+        <div class="paddingleft">
+            <div class="h1style2 middle c5h1">
+                <h1>START YOUR LEGEND</h1>
+            </div>
+            <div class="c5p1 middle">
+                <p>
+                    New to League? Get a rundown on the basics for the most popular game mode.
+                </p>
+            </div>
+            <div class="button middle zoom">
+                <a href="https://chanchunsim.github.io/assignment/html/basic.html">GET STARTED</a>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <div class="footertop">
+            <div class="w-30">
+                <a href="https://chanchunsim.github.io/assignment/index.html"><img src="img/league-of-legends-icon-transparent-0.jpg" alt="icon" width="60px"> </a>
+            </div>
+            <div class="w-30 footerlink">
+                <h4>
+                    MENU
+                </h4>
+                <a href="https://chanchunsim.github.io/assignment/html/champion.html">Champion</a>
+                <a href="https://chanchunsim.github.io/assignment/html/basic.html">Game Mode</a>
+                <a href="https://chanchunsim.github.io/assignment/html/about.html">About Me</a>
+                <a href="https://chanchunsim.github.io/assignment/html/contact.html">Contact Me</a>
+            </div>
+            <div class="w-30 footericon">
+                <a href="https://www.facebook.com/wschunsim"><img src="img/5279111_network_fb_social media_facebook_facebook logo_icon.png" alt="facebook"
+                    width="48px"></a>
+                <a href="https://www.instagram.com/chunsim358/"><img src="img/5279112_camera_instagram_social media_instagram logo_icon.png" width="48px"
+                    alt="instagram"></a>
+                <a href="https://github.com/chanchunsim"><img src="img/github-163-761603.webp" width="48px" alt="github"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                Copyright © 2022 Chan Chun Sim
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className = "topnav" + " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            var icon = document.getElementById("icon");
+            if (icon.className === "fa-brands fa-aviato") {
+                icon.className = "fa-solid fa-apple-whole";
+            } else {
+                icon.className = "fa-brands fa-aviato";
+            }
+        }
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            document.getElementById("myTopnav").display = none;
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementsByClassName("topnav").style.display = block;
+        }
+        function content() {
+
+            var inputValue = document.getElementsByClassName('c4slide').value;
+            {
+
+                document.getElementById('c4content').innerHTML = 'THE MOST POPULAR GAME MODE<br>Clear your lane, dive into epic 5v5 team fights, and destroy the enemy nexus beforethey destroy yours.'
+            }
+
+        }
+        function content2() {
+
+            var inputValue = document.getElementsByClassName('c4slide').value;
+            {
+
+                document.getElementById('c4content').innerHTML = 'ALL RANDOM, ALL MID<br>Battle across an icy bridge as your team of random champions charge toward the enemy Nexus in this chaotically fun 5v5 game mode.'
+            }
+
+        }
+        function content3() {
+
+            var inputValue = document.getElementsByClassName('c4slide').value;
+            {
+
+                document.getElementById('c4content').innerHTML = 'A FREE-FOR-ALL WAR FOR SUPREMACY<br>Assemble a squad of champions that battle on your behalf. Outlast all seven of your opponents and become the last person standing.'
+            }
+
+        }
+
+        function myFunction() {
+
+            var inputValue = document.getElementsByClassName('input1').value;
+            {
+
+                document.getElementById('span1').innerHTML = 'Fighters (also known as Bruisers) are a diverse group of short-ranged combatants who excel at both dealing and surviving damage.'
+            }
+
+        }
+        function myFunction2() {
+
+            var inputValue = document.getElementsByClassName('input1').value;
+            {
+
+                document.getElementById('span1').innerHTML = 'Slayers are highly mobile champions who specialize in single target burst damage. What they generally lack in resilience, they more than make up for with their ability to quickly cover large distances, kill priority targets and retreat just as fast.'
+
+            }
+
+        }
+        function myFunction3() {
+
+            var inputValue = document.getElementsByClassName('input1').value;
+            {
+
+                document.getElementById('span1').innerHTML = 'Mages are champions who typically possess great reach, ability-based area of effect damage and crowd control, and who use all of these strengths in tandem with each other to trap and destroy enemies from a distance.'
+
+            }
+
+        }
+        function myFunction4() {
+
+            var inputValue = document.getElementsByClassName('input1').value;
+            {
+
+                document.getElementById('span1').innerHTML = 'Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks: using their reach to land massive continuous damage from a distance.'
+
+            }
+
+        }
+        function myFunction5() {
+
+            var inputValue = document.getElementsByClassName('input1').value;
+            {
+
+                document.getElementById('span1').innerHTML = 'Within a drafted team, the Support is one of the two champions assigned to the bottom lane alongside the Bottom icon.png Bottom Carry.'
+
+            }
+
+        }
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+    </script>
+</body>
+
+</html>
