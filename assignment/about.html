@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 1 About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="icon" type="image/x-icon" href="img/totoro.jpg">
+    <script src="https://kit.fontawesome.com/2cba371596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="control">
+    <div class="container">
+        <div class="header">
+            <div class="headerimg">
+                <a href="index.html"><img src="img/league-of-legends-icon-transparent-0.jpg" alt="icon" width="60px"> </a>
+                
+            </div>
+            <div class="middle">
+                <div class="headerlink">
+                    <div class="topnav headerlink" id="myTopnav">
+                        <a href="champion.html">CHAMPION</a>
+                        <a href="basic.html">BASIC</a>
+                        <a href="about.html">ABOUT ME</a>
+                        <a href="contact.html">CONTACT ME</a>
+                        <a href="javascript:void(0);" class="icon" onclick=" openNav()">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                          <a href="champion.html">CHAMPION</a>
+                          <a href="basic.html">BASIC</a>
+                          <a href="about.html">ABOUT ME</a>
+                          <a href="contact.html">CONTACT ME</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2 h1style2 middle pd">
+        <h1>ABOUT ME</h1>
+    </div>
+    <div class="middle">
+        <img src="img/hi.jpg" alt="hi">
+    </div>
+    
+    <div class="main">
+        <div class="mainimg">
+            <img src="img/chanchunsim2.jpg" alt="mypic" width="50%">
+        </div>
+        <div class="maintext">
+            <p>
+                Nice to Meet You. <br>
+                My name is Chan Chun Sim.<br>
+                I created this website because I am passionate about games. <br>
+                League is good.<br>
+                Make you Health Life.
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="footertop">
+            <div class="w-30">
+                <a href="index.html"><img src="img/league-of-legends-icon-transparent-0.jpg" alt="icon" width="60px"> </a>
+            </div>
+            <div class="w-30 footerlink">
+                <h4>
+                    MENU
+                </h4>
+                <a href="champion.html">Champion</a>
+                <a href="basic.html">Game Mode</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact Me</a>
+            </div>
+            <div class="w-30 footericon">
+                <a href="https://www.facebook.com/wschunsim"><img src="img/facebook_logo.png" alt="facebook"
+                    width="48px"></a>
+                <a href="https://www.instagram.com/chunsim358/"><img src="img/instagram_logo.png" width="48px"
+                    alt="instagram"></a>
+                <a href="https://github.com/chanchunsim"><img src="img/github_logo.webp" width="48px" alt="github"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                Copyright &copy; 2022 Chan Chun Sim
+            </p>
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className = "topnav" + " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            var icon = document.getElementById("icon");
+            if (icon.className === "fa-brands fa-aviato") {
+                icon.className = "fa-solid fa-apple-whole";
+            } else {
+                icon.className = "fa-brands fa-aviato";
+            }
+        }
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            document.getElementById("myTopnav").display = none;
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementsByClassName("topnav").style.display = block;
+        }
+        
+    </script>
+</body>
+
+</html>

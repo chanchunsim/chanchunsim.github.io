@@ -1,0 +1,12 @@
+.container{
+    background-image: url(../img/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-weight: 300;
+    font-size: 300%;
+    padding: 200px;
+    color: rgb(33, 33, 143);
+}

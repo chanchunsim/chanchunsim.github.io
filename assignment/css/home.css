@@ -14,7 +14,7 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-image: url('../img/wallpapersden.com_cool-true-damage-lol_1920x1080.jpg');
+    background-image: url(../img/wallpapersden.com_cool-true-damage-lol_1920x1080.jpg);
 }
 .responsive {
     max-width: 100%;
